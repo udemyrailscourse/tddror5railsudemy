@@ -39,6 +39,10 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
+group :test do
+  gem 'capybara', '~> 2.14'
+end
+
 group :development do
   gem 'guard-rspec', '~> 4.7', '>= 4.7.2'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
