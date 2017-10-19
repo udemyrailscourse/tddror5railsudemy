@@ -2,6 +2,7 @@
 
 body {
   padding-top: 70px;
+  background-color: #ddd;
 }
 
 .navbar {
@@ -43,4 +44,21 @@ body {
   padding-top: 5px; 
   padding-bottom: 5px; 
   font-size: 200%;
+}
+
+section.site-title { 
+  background-color: #fff; 
+  padding: 75px 200px; 
+  margin-top: 200px;
+}
+section.site-title h1 { 
+  font-size: 32px;
+  margin-bottom: 30px; 
+}
+section.site-title p { 
+  font-size: 24px;
+  margin-bottom: 30px; 
+}
+section.site-title p > a, section.site-title h1 > a {
+  color: #f00; 
 }

@@ -1,5 +1,6 @@
 <section class="site-title">
   <h1>Do you want to play blackjack?</h1>
   <%= link_to "Sign up now!", new_user_registration_path %>
+  <p class="sign_in">Have an account? Please <%= link_to "Sign in", new_user_session_path %></p>
   <%= link_to "Log out", destroy_user_session_path, method: :delete %>
 </section>
