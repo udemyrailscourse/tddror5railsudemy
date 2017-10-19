@@ -1,0 +1,46 @@
+@import "bootstrap";
+
+body {
+  padding-top: 70px;
+}
+
+.navbar {
+  background: #08c3d2;
+}
+
+.navbar-header a.navbar-brand { 
+  color: #ff0000;
+  padding-top: 25px; 
+  padding-bottom: 50px; 
+  font-size: 150%;
+  font-weight: bold; 
+}
+
+.navbar-default .navbar-nav > li > a { 
+  color: #ff0000;
+  font-size: 120%;
+  padding-top: 25px;
+  padding-bottom: 30px; 
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff; 
+}
+
+.navbar-header a.navbar-brand:hover {
+  color: #ffffff; 
+}
+
+.panel-div {
+  margin-top: 30px; 
+}
+
+.panel-default > .panel-heading {
+  background-color: #fff; 
+}
+
+.form-heading { 
+  padding-top: 5px; 
+  padding-bottom: 5px; 
+  font-size: 200%;
+}
