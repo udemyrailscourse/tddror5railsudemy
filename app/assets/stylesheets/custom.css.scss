@@ -76,3 +76,23 @@ section.site-title p > a, section.site-title h1 > a {
 #error_explanation h2 {
   font-size: 150%;
 }
+
+.card {
+  width: 949px;
+  height: 392px;
+  background-image: image-url('cards.png');
+  background-repeat: no-repeat;
+}
+
+.card-size {
+  width: 73px;
+  height: 98px;
+  display: inline-block;
+}
+
+.card-back {
+  width: 73px;
+  height: 98px;
+  background-image: image-url('card_back.png');
+  background-repeat: no-repeat;
+}

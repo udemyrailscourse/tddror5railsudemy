@@ -45,4 +45,19 @@ RSpec.describe "Dashboard", type: :request do
     end
     
   end
+  
+  describe 'POST /users/sign_in' do
+    before do
+      @john = User.create(email: "john@example.com", password: "password")
+      
+      post "/users/sign_in",
+        params: { user: {email: @john.email, password: "password"} }
+    end
+    
+    it "successfully signs in and redirects to home path" do
+      expect(response.status).to eq 302
+      expect(response).to redirect_to(home_path)
+    end
+    
+  end
 end
