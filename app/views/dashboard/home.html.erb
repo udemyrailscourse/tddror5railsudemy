@@ -1,4 +1,11 @@
-<h1>Welcome to the index page</h1>
+<h1 class="page-header">Welcome to the Casino!</h1>
+
+<div>
+  <h3 class="game-prompt">
+    Want to play a new hand? Click the button below.
+  </h3>
+  <%= link_to "New Hand", start_game_path, method: :post, class: "btn btn-primary btn-new-game" %>
+</div>
 
 <div class="card card-size" style="background-position: 0px -98px"></div>
 <div class="card-back"></div>
